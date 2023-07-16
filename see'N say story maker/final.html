@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>See 'N Say Story Maker</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>See 'N Say Story Maker</h1>
+
+    <div class="desc">
+        <p>The See 'N Say Story Maker is an interactive tool that allows you to create unique and fun stories with just
+            a click of a button. It's a modern twist on the classic See 'N Say toy, where you can mix and match
+            different words to form your own imaginative phrases.</p>
+
+        <p>With five buttons representing different word categories - nouns, verbs, adjectives, second nouns, and places
+            - you can generate random words from each category selected from below shown options by simply clicking the
+            corresponding button. Each click adds a new word to the story, creating a hilarious and creative combination.</p>
+
+        <p>As you click the buttons, the chosen words will be displayed in the phrase output section, forming a sentence
+            that can range from silly to adventurous. You can even click the "Speak" button to hear the generated phrase
+            spoken aloud using text-to-speech technology.</p>
+
+        <p>The See 'N Say Story Maker offers endless possibilities for storytelling and wordplay. Whether you're looking
+            to spark your imagination, entertain friends, or simply have some fun, this interactive tool will bring
+            laughter and creativity to your storytelling adventures.</p>
+
+        <span class="note">Note: Press the reset button before creating a new story. Also before using the surprise
+            button.</span>
+
+    </div>
+
+    <div id="phraseOutput">
+        <span id="nounOutput">____</span> <span id="verbOutput">____</span> <span id="adjectiveOutput">____</span> <span
+            id="secondNounOutput">____</span> <span id="placeOutput">____</span>
+    </div>
+
+    <div id="buttonsContainer">
+        <button id="nounButton" class="storyselector">Noun</button>
+        <button id="verbButton" class="storyselector">Verb</button>
+        <button id="adjectiveButton" class="storyselector">Adjective</button>
+        <button id="secondNounButton" class="storyselector">Noun 2</button>
+        <button id="placeButton" class="storyselector">Place</button>
+        <button id="speakButton" class="resultprovider">Speak</button>
+        <button id="surprise" class="random">Surprise</button>
+        <button id="resetButton" onclick="location.reload()">Reset</button>
+    </div>
+    <img src="images/first.png" alt="Image description" class="firstimg">
+    <img src="images/second.png" alt="Image description" class="secondimg">
+    <img src="images/third.png" alt="Image description" class="thirdimg">
+    <img src="images/fourth.png" alt="Image description" class="fourthimg">
+    <img src="images/fifth.png" alt="Image description" class="fifthimg">
+    <script src="script.js"></script>
+</body>
+
+</html>
